@@ -1,0 +1,92 @@
+#container[type=text] {list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 10px;
+    border: 1px solid black;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+  #dung{
+    background-color: black;
+    color: #f1f1f1;
+  }
+
+#container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.navs2{
+    list-style-type: none;
+    display: flex;
+    gap: 14px;
+    width: 20%;
+    padding: 10px;
+    background:white;
+    color: black;
+    font-size: 10px;
+    border: 1px solid black
+}
+li{
+    float: left;
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+ul{
+    gap: 15px;
+}
+.image{
+    border: solid 1px;
+    border-radius: 10px;
+
+
+}
+#pair{
+    display: flex;
+    gap: 15px;
+    margin: auto;
+    border: solid 1px white;
+
+}
+#shoe{
+    display: flex;
+    gap: 15px;
+    margin: auto;
+    border: solid 1px white;
+}
+#item{
+    display: flex;
+
+}
+#background-pic{
+    background-image: url(photos/gaga.jpg);
+  background-repeat: no-repeat;
+  background-attachment:local; 
+  background-size: 100% 100%;
+  background-color: lightslategrey;
+  width: 100%;
+  height: 500px;
+  border: solid 1px;
+}
+#change{
+    display: flex;
+    gap: 5%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: grey;
+  text-align: center;
+
+
+}
+button{
+    color: white;
+    background-color: black;
+    margin-left: 50%;
+}
